@@ -1,0 +1,20 @@
+model:
+  file_name: ferg96.h5py
+  classes:
+    - anger
+    - disgust
+    - fear
+    - joy
+    - neutral
+    - sadness
+    - surprise
+  input_dim:
+    - 96
+    - 96
+face:
+  file_name: haarcascade_frontalface_default.xml
+  scale_factor: 1.1
+  min_neighbors: 5
+  min_size:
+    - 64
+    - 64
